@@ -1,0 +1,99 @@
+html,body{
+    overflow-x: hidden;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0% 2%;
+}
+
+.bg-primary {
+    background-color: #272953 !important;
+}
+
+body {
+  background-color: #16103a;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1340px !important;
+}
+
+.card-body {
+    padding: 0.75rem;
+    /*background-color: #272953; */
+}
+
+@media (max-width: 768px) {
+    .col-sm-12 {
+        padding-bottom: 20px;
+    }
+
+    .card-padding {
+        padding-bottom: 4vh;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .feature-row {
+        padding-bottom: 4vh;
+    }
+}
+
+
+.custom-select {
+    background-color: #16103a;
+    color: #e0e1e6;
+}
+
+
+.mb-5 {
+    margin-bottom: 0rem !important;
+}
+
+.cover {
+    background-color: #272953;
+    text-align: center;
+    background-color: #16103a;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+.customer-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    height: 42vh;
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    background-color: #272953;
+    border:none;
+
+}
+
+.form-control {
+    background-color: #16103a;
+    color: #e0e1e6;
+}
+
+.github-logo {
+    display:inline;
+    width: 24px;
+    margin-right: 5px;
+    padding-bottom: 2px;
+}
+
+a:hover {
+    text-decoration: none;
+}
